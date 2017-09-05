@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sergio Alain Rodriguez">
+    <meta name="title" content="Electronix CUCEI">
+    <meta name="description" content="Compra/Venta de componentes electronicas nuevos o usados">
+    <meta name="keywords" content="compra,venta,cucei">
+
+    <style>
+
+    #viajes {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      /*
+          row: se alinean en filas.
+          row-reverse: en filas, pero con el orden inverso.
+          column: se alinean en columnas.
+          column-reverse: en columnas, pero con el orden inverso.
+
+          flex-wrap controla si el contenedor flexible (en este caso #viajes) tiene una sola
+          línea o múltiples líneas, así como la dirección en la que se colocan las nuevas
+          líneas en el eje transversal.
+
+          nowrap: El contenedor consta de una sola línea.
+          wrap: El contenedor tiene múltiples líneas.
+          wrap-reverse: El contenedor tiene múltiples líneas que se colocan en orden inverso.
+          */
+      }
+    .viajes-item {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+    }
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+    <section id='viajes'>
+        <div class='viajes-item uno'>
+           <h2>Malta, la isla mediterránea por conocer</h2>
+           <p>La República de Malta (en maltés: Repubblika ta' Malta; en inglés: Republic of Malta) es un país insular miembro de la Unión Europea, densamente poblado, compuesto por un archipiélago y situado en el centro del Mediterráneo, al sur de Italia, al oriente de Túnez y al norte de Libia. Debido a su situación estratégica, ha sido gobernado y disputado por diversas potencias en el transcurso de los siglos. Desde 1964 es independiente y en 2004 se adhirió a la Unión Europea. </p>
+           <img src='images/malta.jpg' alt='' />
+           <button>MÁS INFO</button>
+        </div>
+        <div class='viajes-item dos'>
+            <h2>Polonia, un país por descubrir</h2>
+            <p>oficialmente denominada República de Polonia (en polaco Rzeczpospolita (?·i) Polska), es un país situado en Europa Central y miembro de la Unión Europea (UE). Tiene una extensión territorial de 312 685 km². Limita al norte con el mar Báltico y el óblast de Kaliningrado, (que pertenece a Rusia aunque sin conexión con ella), al noreste con Lituania, al este con Bielorrusia, al sureste con Ucrania, al sur con la República Checa y Eslovaquia y al oeste con Alemania. Con una población de más de 38,5 millones de personas, Polonia es el 34º país más poblado del mundo, y el sexto más poblado de la UE. Polonia es un Estado unitario dividido en 16 subdivisiones administrativas.</p>
+            <img src='images/oporto.jpg' alt='' />
+            <button>MÁS INFO</button>
+        </div>
+        <div class='viajes-item tres'>
+            <h2>Un paseo por el viejo Oporto</h2>
+            <p>es la segunda ciudad más importante de Portugal, después de Lisboa. Tenía 237 559 habitantes en el año 2011. Contornan el núcleo central de la ciudad de Oporto, la subregión de Gran Oporto, y de manera más amplia el Área Metropolitana de Oporto, que forma su área metropolitana de 2 459 045 habitantes. Se encuentra en el norte del país, en la ribera derecha del Duero en su desembocadura en el océano Atlántico. Es sede del Distrito de Oporto, en la Región Norte de Portugal. </p>
+            <img src='images/polonia.jpg' alt='' />
+            <button>MÁS INFO</button>
+        </div>
+    </section>
+  </body>
+</html>
